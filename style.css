@@ -1,0 +1,358 @@
+body {
+    background-color: black;
+}
+
+#project1, #project2  {
+    padding: 7% 20%;
+}
+
+#project1 .container-fluid {
+    border: solid 5px orange;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#project1 h1 {
+    font-size: 6rem;
+    font-family: 'Merriweather', serif;
+    text-shadow: 5px 5px 2px black, 0 0 25px red, 0 0 10px darkred;
+}
+
+#project1 span {
+    font-size: 4rem;
+    
+}
+
+#project1 .buttonContainer {
+    margin: 2%;
+}
+
+.counterButton {
+    margin: 0 1%;
+}
+
+/* project2 */
+
+#project2 .container-fluid {
+    border: solid 5px orange;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#project2 h1 {
+    font-family: 'Arvo', serif;
+    font-size: 5rem;
+}
+
+.shipCount {
+    font-size: 4rem;
+}
+
+#project2 .buttonContainer {
+    margin: 2% 2% 4%;
+}
+
+#project2 button{
+    display: block;
+    margin: 1.5% auto;
+    width: 40%;
+    font-family: 'Merriweather', serif;
+}
+
+#project2 p {
+    font-size: 2rem;
+}
+
+.shipEntries {
+    font-size: 2rem;
+}
+
+/* project3 */
+
+#project3 {
+    padding: 7% 12.5%;
+}
+
+#project3 .container-fluid {
+    border: double 8px violet;
+    border-radius: 30px;
+    text-align: center;
+    color: white;
+}
+
+#project3 h1 {
+    text-shadow: 0 3.5px 5px blue, 3.5px 0 5px blue, 0 -3.5px 5px blue, -3.5px 0 5px blue;
+    font-size: 5rem
+}
+
+.pokeBox {
+    display: inline-block;
+    margin: 2%;
+    font-family: 'Indie Flower', cursive;
+}
+
+.centerPokemon{
+    margin: 2% 3%;
+}
+
+.pokemonButtonContainer2 {
+    margin: 3% 5%;
+    display: inline-block;
+}
+.pokemonButton {
+    font-size:19px;
+    font-family: 'Merriweather', serif;
+    width:135px;
+    height:33px;
+    border-width:1px;
+    color:#fff;
+    border-color:rgba(255, 255, 255, 1);
+    font-weight:bold;
+    border-top-left-radius:42px;
+    border-top-right-radius:42px;
+    border-bottom-left-radius:42px;
+    border-bottom-right-radius:42px;
+    /* text-shadow: 1px 1px 0px rgba(208, 2, 27, 1);*/
+    
+  }
+
+.charmanderButton {
+    background:rgba(208, 2, 27, 1);
+}
+
+.squirtleButton {
+    background:rgba(74, 144, 226, 1);
+}
+
+.bulbasuorButton {
+    background:rgba(72, 211, 33, 1);
+}
+
+.charmanderButton:hover {
+    background: rgba(245, 166, 35, 1);
+}
+
+.squirtleButton:hover {
+    background: rgba(80, 227, 194, 1)
+}
+
+.bulbasuorButton:hover {
+    background: rgba(184, 233, 134, 1)
+}
+
+.pokemonSpeaker {
+    width: 25px;
+    color: red;
+}
+
+.userPokemon {
+    width: 275px;
+}
+
+.computerPokemon {
+    width: 275px;
+}
+
+@keyframes pokemonCenter {
+    0% {
+        text-shadow: 0 3.5px 5px blue, 3.5px 0 5px blue, 0 -3.5px 5px blue, -3.5px 0 5px blue;
+    }
+    20% {
+        text-shadow: 0 6px 5px blue, 6px 0 5px blue, 0 -6px 5px blue, -6px 0 5px blue;
+    }
+    40% {
+        text-shadow: 0 3.5px 5px blue, 3.5px 0 5px blue, 0 -3.5px 5px blue, -3.5px 0 5px blue;
+    }
+    60% {
+        text-shadow: 0 6px 5px blue, 6px 0 5px blue, 0 -6px 5px blue, -6px 0 5px blue;
+    }
+    80% {
+        text-shadow: 0 3.5px 5px blue, 3.5px 0 5px blue, 0 -3.5px 5px blue, -3.5px 0 5px blue;
+    }
+    100% {
+        text-shadow: 0 6px 5px blue, 6px 0 5px blue, 0 -6px 5px blue, -6px 0 5px blue;
+    }
+}
+
+/* project 4 */
+#project4 {
+    padding: 7% 30%
+}
+
+#project4 .container-fluid {
+    border: solid 5px blue;
+    border-radius: 5px;
+    color: white;
+    height: 300px
+}
+
+#project4 input{
+    width: 70%;
+    margin: 5% 5% 2%;
+    display: block;
+    border: solid 2.5px green;
+    padding: 1%
+}
+
+#project4 button{
+    margin-left: 5%;
+    margin-bottom: 5%;
+    width: 15%;
+}
+
+.saveList {
+    color: green;
+    list-style:circle;
+}
+
+#project4 a {
+    color: green;
+    text-decoration: none;
+    
+}
+
+/* project 5 */
+#project5 {
+    padding: 7% 20%;
+}
+
+#project5 .container-fluid {
+    border: double 5px blue;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #011F3F;
+  }
+  
+  #level-title {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  5%;
+    color: #FEF2BF;
+  }
+  
+  #project5 .container {
+    display: block;
+    width: 50%;
+    margin: auto;
+  }
+  
+  #project5 .btnColor {
+    margin: 25px auto;
+    display: inline-block;
+    height: 125px;
+    width: 125px;
+    border: 9px solid black;
+    border-radius: 20%;
+  }
+  
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .blue {
+    background-color: blue;
+  }
+  
+  .yellow {
+    background-color: yellow;
+  }
+  
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+
+  /* project 6 */
+
+  #project6{
+    padding: 7% 14%;
+  }
+
+  #project6 .container-fluid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border: solid 10px white;
+      border-radius: 80px;
+      padding-bottom: 7px;
+      padding-top: 7px;
+      background-color: #d6d5d0;
+      position: relative;
+      background-image: linear-gradient(to right, blue, blue 22%, #d6d5d0 22%, #d6d5d0 78%, red 78%)
+    }
+
+  #project6 h1 {
+      margin-bottom: 5px;
+      font-family: 'Arvo', serif;
+      font-size: 3rem;
+      color: green
+  }
+
+
+  canvas {
+      box-shadow: 20px 10px 50px grey;
+      background-color: white;
+      width: 300px;
+      height: 300px;
+  }
+
+  .switchButtonRight {
+      position: absolute;
+      right: 5%;
+      top: 23%;
+      width: 124px;
+  }
+
+  .switchButtonLeft {
+    position: absolute;
+    left: 5%;
+    top: 59%;
+    width: 114px;
+}
+
+.switchJoyRight {
+    position: absolute;
+    right: 6%;
+    top: 61%;
+    width: 104px;
+}
+
+.switchJoyLeft {
+    position: absolute;
+    left: 5%;
+    top: 23%;
+    width: 104px;
+}
+
+.switchToggle {
+    position: absolute;
+    left: 9%;
+    top: 1%;
+    width: 100px;
+}
+
+.resetButton {
+    
+    color: white;
+    border-radius: 15px;
+    position: absolute;
+    right: 11%;
+    top: 2.3%;
+    width: 75px;
+    height: 25px;
+    background-color: black;
+}
+
+  
